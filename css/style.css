@@ -20,3 +20,45 @@ header h1{
 }
 
 
+.inv-container{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	padding-top: 50px;
+	flex-wrap: wrap;
+}
+
+.item-container{
+	padding: 10px;
+	background: #76b7db;
+	color: #212121;
+	width: 170px;
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 10px;
+}
+
+.item-container:hover{
+	opacity: 0.8;
+}
+
+
+.item-title{
+	font-size: 25px;
+	width: 100%;
+	padding: 5px 0 15px 0;
+	text-align: center;
+}
+
+.item-body{
+	text-align:left;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.item-amount, .item-quantity{
+	padding: 10px 0 5px 0;
+}
+
+
